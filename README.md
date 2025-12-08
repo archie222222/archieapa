@@ -1,4 +1,4 @@
-# Archie A. Apa — Academic Portfolio
+# Archie A. Apa — Portfolio
 
 This repository contains a Jekyll-based academic portfolio website built from the AcademicPages / Minimal Mistakes theme.
 
