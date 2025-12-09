@@ -42,9 +42,18 @@
       </div>
       {% endif %}
       
-      {% if cv.basics.location.city %}
+      {% if cv.basics.location.region or cv.basics.location.countryCode %}
       <div class="cv-contact-item">
-        <i class="fas fa-map-marker-alt"></i> {{ cv.basics.location.city }}{% if cv.basics.location.region %}, {{ cv.basics.location.region }}{% endif %}{% if cv.basics.location.countryCode %}, {{ cv.basics.location.countryCode }}{% endif %}
+        <i class="fas fa-map-marker-alt"></i>
+        {% assign region = cv.basics.location.region %}
+        {% assign country = cv.basics.location.countryCode %}
+        {% if region and country %}
+          {{ region }}, {{ country }}
+        {% elsif region %}
+          {{ region }}
+        {% elsif country %}
+          {{ country }}
+        {% endif %}
       </div>
       {% endif %}
     </div>
