@@ -17,24 +17,24 @@ Alongside engineering work, I also build **tools and workflows** (Excel/VBA auto
 
 ## What I do
 
-### **Lighting & Electrical Engineering**
+## **Lighting & Electrical Engineering**
 - Interior & exterior lighting design  
 - Façade and feature lighting concepts  
 - Technical calculations, compliance checks, and VE  
 - Fixture selection, photometric evaluation, and detailing  
 
-### **Lighting Control Systems**
+## **Lighting Control Systems**
 - DALI, DMX, hybrid systems  
 - Control schematics, addressing, and documentation  
 - Integration with BMS, AV, and architectural systems  
 - Support for on-site testing & commissioning  
 
-### **Design Support & Coordination**
+## **Design Support & Coordination**
 - Technical submittals & shop drawing reviews  
 - Contractor and consultant coordination  
 - Issue resolution and final installation support  
 
-### **Tools & Process Optimization**
+## **Tools & Process Optimization**
 - Excel automation (VBA templates, BOQ automation, structured databases)  
 - Workflow standardization & document system improvements  
 - Exploring scripting and data workflows to improve engineering efficiency  
