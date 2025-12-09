@@ -123,6 +123,8 @@
   (google-plus, $google-plus-color),
   (linkedin, $linkedin-color),
   (mastodon, $mastodon-color),
+  (instagram, $instagram-color),
+  (x, $twitter-color),
   (twitter, $twitter-color); 
 
   @each $socialnetwork, $color in $social {
@@ -132,6 +134,15 @@
       &:hover {
         background-color: mix(#000, $color, 20%);
       }
+    }
+  }
+
+  /* Instagram uses a multicolor gradient rather than a single brand color */
+  &--instagram {
+    background: linear-gradient(45deg, #feda75 0%, #fa7e1e 30%, #d62976 60%, #962fbf 90%);
+
+    &:hover {
+      filter: brightness(0.92);
     }
   }
 
