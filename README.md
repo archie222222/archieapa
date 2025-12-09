@@ -1,10 +1,10 @@
-# Archie A. Apa — Portfolio
+# Archie A. Apa — Profile
 
 This repository contains a Jekyll-based portfolio website built from the AcademicPages / Minimal Mistakes theme.
 
 ## Summary
 
-- **Purpose:** personal portfolio and publications site for Archie A. Apa.
+- **Purpose:** personal projects and publications site for Archie A. Apa.
 - **Tech:** Jekyll, Ruby, GitHub Pages-compatible, with optional Docker development environment.
 
 ## Repository highlights
