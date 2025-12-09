@@ -1,0 +1,63 @@
+/* Custom overrides for this site
+   Scoped rules for Projects listing
+   Ensures inline teaser images keep aspect ratio but don't exceed max height.
+*/
+
+.projects-grid__inner {
+  display: grid;
+  grid-template-columns: repeat(var(--projects-columns, 3), 1fr);
+  gap: 1.25rem;
+}
+
+.project-card {
+  background: transparent;
+  padding: 0.5rem;
+  border-radius: 4px;
+  overflow: hidden;
+  text-align: left;
+}
+
+.project-card__title {
+  margin: 0 0 0.5rem 0;
+  font-size: 1rem;
+}
+
+.project-card__image {
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+
+.project-card__image img {
+  max-width: 100%;
+  max-height: var(--projects-image-height, 260px);
+  width: auto;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+/* Make the entire card clickable and style the link */
+.project-card__link {
+  display: block;
+  color: inherit;
+  text-decoration: none;
+}
+
+.projects-grid .project-card__link .project-card__title,
+.projects-grid .project-card__link {
+  text-decoration: none;
+}
+
+.projects-grid .project-card__link:hover .project-card__title,
+.projects-grid .project-card__link:focus .project-card__title {
+  text-decoration: underline;
+}
+
+/* Responsive fallbacks */
+@media (max-width: 900px) {
+  .projects-grid__inner { grid-template-columns: repeat(2, 1fr); }
+}
+
+@media (max-width: 600px) {
+  .projects-grid__inner { grid-template-columns: repeat(1, 1fr); }
+}

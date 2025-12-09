@@ -3,13 +3,48 @@ layout: archive
 title: "Projects"
 permalink: /projects/
 author_profile: true
+
+grid_columns: 3
+image_height: 260
 ---
 
 {% include base_path %}
 
-<div class="page__content">
-  {% for post in site.portfolio %}
-    {% include archive-single.html %}
-  {% endfor %}
+<div class="page__content projects-grid" style="--projects-columns: {{ page.grid_columns | default: 3 }}; --projects-image-height: {{ page.image_height | default: 260 }}px;">
+  <div class="projects-grid__inner">
+    {% for post in site.portfolio %}
+      {% if post.header.teaser %}
+        {% capture teaser %}{{ post.header.teaser }}{% endcapture %}
+      {% else %}
+        {% assign teaser = site.teaser %}
+      {% endif %}
+
+      {% if post.link %}
+        {% assign card_url = post.link %}
+      {% else %}
+        {% assign card_url = base_path | append: post.url %}
+      {% endif %}
+
+      <article class="project-card" itemscope itemtype="http://schema.org/CreativeWork">
+        <a class="project-card__link" href="{{ card_url }}"{% if post.link %} target="_blank" rel="noopener"{% endif %}>
+          <h3 class="project-card__title">{{ post.title }}</h3>
+
+          {% if teaser %}
+          <div class="project-card__image">
+            {% if teaser contains "://" %}
+              <img src="{{ teaser }}" alt="{{ post.title }}">
+            {% else %}
+              <img src="{{ teaser | prepend: '/images/' | prepend: base_path }}" alt="{{ post.title }}">
+            {% endif %}
+          </div>
+          {% endif %}
+
+          {% if post.excerpt %}
+          <div class="project-card__excerpt">{{ post.excerpt | markdownify }}</div>
+          {% endif %}
+        </a>
+      </article>
+    {% endfor %}
+  </div>
 </div>
 
