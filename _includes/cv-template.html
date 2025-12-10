@@ -75,13 +75,19 @@
           <div class="cv-item-date">{{ education.endDate }}</div>
         </div>
         <div class="cv-item-content">
-          <div class="cv-item-subtitle">{{ education.institution }}</div>
+          <div class="cv-item-subtitle">{{ education.institution }}<br><em>Quezon City, Philippines</em></div>
           {% if education.gpa %}
           <div class="cv-item-detail">GPA: {{ education.gpa }}</div>
           {% endif %}
           {% if education.courses.size > 0 %}
           <div class="cv-item-detail">
             <strong>Courses:</strong> {{ education.courses | join: ", " }}
+          </div><br>
+          <div class="cv-item-detail">
+            <strong>Capstone Project:</strong> {{ education.coursework | join: ", "}}
+          </div><br>
+          <div class="cv-item-detail">
+            <strong>Activities and Societies: </strong>{{ education.activitiesandsocieties | join: ", "}}
           </div>
           {% endif %}
         </div>
@@ -103,7 +109,7 @@
           <div class="cv-item-date">{{ work.startDate }}{% if work.endDate %} - {{ work.endDate }}{% endif %}</div>
         </div>
         <div class="cv-item-content">
-          <div class="cv-item-subtitle">{{ work.company }}</div>
+          <div class="cv-item-subtitle">{{ work.company }}<br><em> {{ work.location }}</em></div>
           {% if work.summary %}
           <div class="cv-item-detail">{{ work.summary }}</div>
           {% endif %}

@@ -27,74 +27,92 @@
   "work": [
     {
       "company": "Creation Gulf",
+      "location": "Dubai, United Arab Emirates",
       "position": "Senior Design and Support Engineer",
       "website": "https://www.creationgulf.com/",
       "startDate": "Aug 2024",
       "endDate": "Present",
-      "summary": "Brief summary of your role and responsibilities.",
+      "summary": "Leading provider of architectural lighting and automation solutions, coordinating across internal teams and external stakeholders to deliver tailored project requirements on time and within budget.",
       "highlights": [
-        "Achievement or responsibility #1",
-        "Achievement or responsibility #2"
+        "Achieved consistent year-over-year growth in total delivered project value: +75% (2022), +100% (2023), and +30% (2024)",
+        "Designed and delivered LEED certified projects for Masdar including dynamic lighting and control system for facade",
+        "Facilitated team growth by sharing best practices and industry standards in lighting design, contributing to continuous learning and development",
+        "Designed and implemented automated proposal templates using VB programming, significantly improving workflow speed and operational efficiency while maintaining a high level of accuracy"
       ]
     },
     {
       "company": "Creation Gulf",
+      "location": "Dubai, United Arab Emirates",
       "position": "Design and Support Engineer",
       "website": "https://www.creationgulf.com/",
       "startDate": "Apr 2021",
       "endDate": "Jul 2024",
-      "summary": "Brief summary of your role and responsibilities.",
+      "summary": "",
       "highlights": [
-        "Achievement or responsibility #1",
-        "Achievement or responsibility #2"
+        "Aug 2023 - In collaboration with multiple stakeholders, oversaw the successful implementation of the lighting system for the BAPS Hindu Mandir Abu Dhabi, the first traditional Hindu stone temple in the Middle East.",
+        "Feb 2023 - Led the specification, supply, and commissioning of lighting and controls for the interactive entertainment destination: Manchester City Challenge - Cityzen Code at Yas Mall, Abu Dhabi.",
+        "Dec 2021 - Led technical teams in specifying, supplying, and installing lighting and control systems for the UAE National Day (ND50) event in Hatta, Dubai, achieving the “Lighting Design of the Year” award at Index Design Awards. Continued leadership in subsequent National Day events (ND51 in Dec 2022 and ND52 in Dec 2023) with consistent success in the same capacity.",
+        "Aug 2021- Oversaw the design and management of lighting systems for the LEED Platinum certified Aldar Academies HQ at Yas Mall, Abu Dhabi, aligning with client specifications and meeting the necessary requirements for LEED Platinum certification.",
+        "Sep 2021 - Designed and delivered the lighting systems for Canadian University Dubai.",
+        "Sep 2021 - Designed and delivered restaurant projects such as BUUR Restaurant at The Beach, Dubai and, Eat Greek and Tribes (May 2022) at Dubai Hills Mall."
       ]
     },
     {
       "company": "Smart Select",
+      "location":"Dubai, United Arab Emirates",
       "position": "Lighting Design and Estimation Engineer",
       "website": "https://www.smartselect.me/",
       "startDate": "Jul 2017",
       "endDate": "Mar 2021",
-      "summary": "Brief summary of your role and responsibilities.",
+      "summary": "Smart Select provides its clients with the best lighting, controls, smart automation, BMS, and energy saving systems in cooperation with its sister company Noor Ala Noor (est 1967) in Amman, Jordan. Being part of a team of lighting designers, engineers, and estimators in the lighting department, I am responsible for the following:",
       "highlights": [
-        "Achievement or responsibility #1",
-        "Achievement or responsibility #2"
+        "Designing the best option according to different applications, client requirements, and conforming with the local and international standards (IES/EN/CIE) and recommendations for lighting system design",
+        "Project Estimation, Procurement, and Quotation",
+        "Architectural lighting design",
+        "Technical lighting design (Lux calculations)",
+        "Preparation of technical/commercial submittals"
       ]
     },
     {
       "company": "Smart Select",
+      "location":"Dubai, United Arab Emirates",
       "position": "Technical Engineer (TCI Telecomunicazioni Italia s.r.l.)",
       "website": "https://www.smartselect.me/",
       "startDate": "Dec 2017",
       "endDate": "Feb 2021",
-      "summary": "Brief summary of your role and responsibilities.",
+      "summary": "TCI Group has been in the world market of lighting for over 25 years. It's continuing revamping makes it today a young and dynamic Group whose aim is project designing and realization of electronic systems for lighting market. Thanks to the great knowledge and capability, TCI works in collaboration with the most important European OEM, distributing its products all over the world.",
       "highlights": [
-        "Achievement or responsibility #1",
-        "Achievement or responsibility #2"
+        "Proposing technically compatible TCI products (Electronic drivers, LED modules, etc.) as per client's project requirements and specifications",
+        "Preparing and assembling sample materials for both design-stage and retrofit projects",
+        "Project estimation",
+        "Providing technical support to clients"
       ]
     },
     {
       "company": "JOMSAR Construction and Development Corporation",
+      "location": "Quezon City, Philippines",
       "position": "Engineering Intern",
       "website": "",
       "startDate": "2014",
       "endDate": "2015",
-      "summary": "Brief summary of your role and responsibilities.",
+      "summary": "JOMSAR Construction And Development Corporation is an electrical work company in Quezon City, Philippines. Reporting to the Head of Engineering Department and Project-In-Charge, I managed a team of electricians and laborers.",
       "highlights": [
-        "Achievement or responsibility #1",
-        "Achievement or responsibility #2"
+        "Creates estimate reports as an electrical estimator for commercial projects in the Engineering Department",
+        "Conducts field inspection based on industry standards as a QA/QC Engineer for the construction of Providence Hospital in Quezon Ave"
       ]
     }
   ],
   "education": [
     {
       "institution": "Technological Institute of the Philippines",
-      "area": "BSc in Electrical Engineering",
+      "area": "BSc in Electrical Engineering (ABET Accredited)",
       "studyType": "",
       "startDate": "2009",
       "endDate": "2015",
       "gpa": null,
-      "courses": ["Electrical System Design for High Rise Buildings", "Power System Design"]
+      "courses": ["Electrical System Design for High Rise Buildings", "Power System Design"],
+      "coursework": "Design of 2MVA, 3-Phase, 34.5kV-460/230V Electrical Distribution System for Rosco Machine Shop and Steel Manufacturing Plant at Bagbaguin, Valenzuela City",
+      "activitiesandsocieties": "Champion in 2012 TIP EE Skills Olympics - Motor Control, Participated on \"3rd Electrical Engineering Mechatronics Challenge\" - 2012, Presented in a Colloquium a Fully Automated Programmable-Logic-Controller-Based Traffic Lights - 2013, Head of Concepts and Design at Shell Eco Marathon Asia 2014 - Team GTE Efficacy."
     }
   ],
   "skills": [],
