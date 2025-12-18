@@ -75,7 +75,7 @@ docker compose up --build
 
 ## License
 
-- This project uses the MIT License (see `LICENSE`).
+- See `LICENSE`.
 
 ## Maintainers & credits
 
