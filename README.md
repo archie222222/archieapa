@@ -83,4 +83,4 @@ docker compose up --build
 
 ## Contact
 
-- Site author email: `archie.apa@gmail.com` (also configured in `_config.yml`)
+- Site author email: `contact@archieapa.com` (also configured in `_config.yml`)
